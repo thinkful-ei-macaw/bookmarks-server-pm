@@ -3,7 +3,9 @@ const API_TOKEN = process.env.API_TOKEN;
 
 const testData = {
   title: 'Test Bookmark',
-  url: 'https://testurl.com'
+  url: 'https://testurl.com',
+  rating: 4,
+  description: 'Test description is super cool'
 };
 
 describe('Bookmarks router', () => {  
@@ -52,6 +54,16 @@ describe('Bookmarks router', () => {
         .post('/bookmarks')
         .set('Authorization', 'Bearer ' + API_TOKEN)
         .send(ommittedData)
+        .expect(400);
+    });
+
+    it('responds 400 when field value is invalid', () => {
+      const incorrectData = { ...testData };
+      incorrectData.rating = 'it sucks';
+      return supertest(app)
+        .post('/bookmarks')
+        .set('Authorization', 'Bearer ' + API_TOKEN)
+        .send(incorrectData)
         .expect(400);
     });
 
