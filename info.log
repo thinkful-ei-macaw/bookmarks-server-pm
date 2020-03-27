@@ -12,3 +12,64 @@
 {"message":"Bookmark with id 1 not found.","level":"error"}
 {"message":"Bookmark with id 1 not found.","level":"error"}
 {"message":"Bookmark with id 1deleted.","level":"info"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Bookmark with id c5325564-495e-4c3e-a9d8-fe7fa3ca22a1 created","level":"info"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Bookmark with id c1bb1ff6-3929-4f68-9f4e-11c2041a22f1 created","level":"info"}
+{"message":"title is required","level":"error"}
+{"message":"Bookmark with id 8732e55a-98d7-4487-9489-d8fb983ad599 created","level":"info"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Bookmark with id 619e88ad-30b3-461c-83fc-1ab1825bf0bd created","level":"info"}
+{"message":"title is required","level":"error"}
+{"message":"Bookmark with id c7a9df21-8481-4e34-8a95-e0b4a893cb68 created","level":"info"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Bookmark with id a705b585-f64e-4a42-bc8b-a5a739593968 created","level":"info"}
+{"message":"title is required","level":"error"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Bookmark with id 0258041c-bbb6-40fa-8432-1a39080126d9 created","level":"info"}
+{"message":"title is required","level":"error"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Bookmark with id 17 not found.","level":"error"}
+{"message":"Unauthorized request to path: /1","level":"error"}
+{"message":"Unauthorized request to path: /1","level":"error"}
+{"message":"Bookmark with id 1deleted.","level":"info"}
+{"message":"Bookmark with id 17 not found.","level":"error"}
+{"message":"Unauthorized request to path: /2","level":"error"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Bookmark with id 64d5df27-2e66-4af9-bdea-de95e307491f created","level":"info"}
+{"message":"title is required","level":"error"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Bookmark with id 17 not found.","level":"error"}
+{"message":"Unauthorized request to path: /1","level":"error"}
+{"message":"Unauthorized request to path: /1","level":"error"}
+{"message":"Bookmark with id 1deleted.","level":"info"}
+{"message":"Bookmark with id 17 not found.","level":"error"}
+{"message":"Unauthorized request to path: /2","level":"error"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Bookmark with id e9246643-0e23-4929-9148-8509a3560aa5 created","level":"info"}
+{"message":"title is required","level":"error"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Bookmark with id 17 not found.","level":"error"}
+{"message":"Unauthorized request to path: /1","level":"error"}
+{"message":"Unauthorized request to path: /1","level":"error"}
+{"message":"Bookmark with id 1deleted.","level":"info"}
+{"message":"Bookmark with id 17 not found.","level":"error"}
+{"message":"Unauthorized request to path: /2","level":"error"}
