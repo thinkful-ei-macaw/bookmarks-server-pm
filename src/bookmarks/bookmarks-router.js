@@ -15,31 +15,24 @@ bookmarksRouter
   .post(bodyParser, (req, res) => {
     const { title, url, rating, description } = req.body;
 
-    let isValid = true;
-
     // check for required fields
     const requiredFields = ['title', 'url', 'rating',];
-    requiredFields.forEach(field => {
+    for (const field of requiredFields) {
       if (!req.body[field]) {
         logger.error(`${field} is required`);
-        isValid = false;
         return res.status(400).send(`${field} is required`);
       }
-    });
+    }
 
     if (!Number.isInteger(rating) || rating < 0 || rating > 5){
       logger.error('Rating must be an integer between 0 and 5');
-      isValid = false;
       return res.status(400).send('Rating must be an integer between 0 and 5');
     }
 
     if (!isWebUri(url)){
       logger.error('URL provided was invalid');
-      isValid = false;
       return res.status(400).send('URL provided was invalid');
     }
-
-    if (!isValid) return false;
 
     // creating bookmark obj
     const id = uuid();
